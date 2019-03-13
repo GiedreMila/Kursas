@@ -5,6 +5,6 @@ body {
 .headingColor {
     color: #ea4faa;
 }
-.paragraphColor {
-    color: #878486;
+.paragraphOpacity {
+    opacity: 0.7;
 }
