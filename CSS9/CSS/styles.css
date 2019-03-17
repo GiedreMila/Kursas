@@ -1,0 +1,68 @@
+
+.mainContainer {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 630px;
+    height: 450px;
+    background-color: #e8ecf2;
+}
+
+.smallContainerParameter {
+
+    background-color: #FFF;
+    width: 180px;
+    height: 420px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+.pictureSize {
+    width:170px;
+    height: auto;
+}
+
+p {
+    text-align: left;
+
+}
+
+.newPrice {
+    font-size: 30px;
+}
+
+.oldPrice{
+    text-decoration: line-through;
+    opacity: 0.8;
+    font:
+}
+
+.button {
+    color: #FFF;
+    background-color: #3bed50;
+    border: 2px solid #3bed50;
+    border-radius: 2px;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+
+}
+
+.noSpaceBetweenItems {
+    margin: 0;
+}
+
+.itemName {
+    color: #4370b7;
+    font-size: 17px;
+}
+
+.shadowContainer {
+    box-shadow: 5px 5px 2px #b5c8e5;
+}
+
+.differentColor {
+    color:#a9d6ac;
+    font-size: 13px;
+}
