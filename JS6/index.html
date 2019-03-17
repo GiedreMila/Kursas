@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS6</title>
+</head>
+
+<body>
+
+   <button onclick="amzius()">įeiti</button>
+
+   <script type="text/javascript">
+
+       function amzius() {
+       var jusuAmzius = prompt("įrašykite savo amžių", "amžius");
+
+       if(jusuAmzius < 18){
+            document.write("Negalite užeiti į svetainę")}
+       else if(jusuAmzius >= 18){
+             document.write("Galite užeiti į svetainę")
+        };
+       }
+
+    </script>
+
+</body>
+
+</html>
