@@ -12,8 +12,8 @@
 
     <?php
 
-     function plotas($aukštis, $plotis) {
-         $rezultatas = $aukštis * $plotis;
+     function plotas($aukstis, $plotis) {
+         $rezultatas = $aukstis * $plotis;
          echo "Stačiakampio plotas: $rezultatas";
      }
 
